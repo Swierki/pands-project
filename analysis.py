@@ -14,7 +14,21 @@ import seaborn as sns
 # Load the dataset
 df = pd.read_csv('C:/Users/luke_/Documents/iris.csv')
 
+# Strip any leading/trailing whitespace in column names
+df.columns = df.columns.str.strip()
+
+# Print the column names to verify
+print(df.columns)
+
+# Display the descriptive statistics
 print(df.describe())
+
+# Step 1: Output a summary of each variable to a text file
+with open("iris_summary.txt", "w") as f:
+    f.write("Dataset Summary:\n")
+    f.write(df.describe().to_string())  # Write the descriptive statistics to the text file
+
+
 
 
 
