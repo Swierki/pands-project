@@ -12,15 +12,38 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the dataset
-df = df = pd.read_csv('C:/Users/luke_/OneDrive/Desktop/pands/pands-project/iris.csv')y:")
+df = pd.read_csv('C:/Users/luke_/Documents/iris.csv')
 
 print(df.describe())
+
 
 
 # This project compares similarities in the  index between the three Iris species by:
 # Measuring how close their average feature vectors are.
 # Using Euclidean distance and cosine similarity between species centroids
 # Visualizing similarity using a dendrogram or heatmap.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
