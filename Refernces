@@ -1,0 +1,20 @@
+## 📚 References
+
+1. **McKinney, W. (2010).**  
+   *Data Structures for Statistical Computing in Python.*  
+   In Proceedings of the 9th Python in Science Conference, 51–56.
+
+2. **Pandas Documentation – `DataFrame.describe()`**  
+   https://pandas.pydata.org/docs/
+
+3. **Seaborn Documentation**  
+   - [`histplot`](https://seaborn.pydata.org/generated/seaborn.histplot.html)  
+   - [`scatterplot`](https://seaborn.pydata.org/generated/seaborn.scatterplot.html)  
+   - [`heatmap`](https://seaborn.pydata.org/generated/seaborn.heatmap.html)  
+   - [`boxplot`](https://seaborn.pydata.org/generated/seaborn.boxplot.html)
+
+4. **Scipy – Euclidean Distance**  
+   https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.distance.euclidean.html
+
+5. **Scikit-learn – Cosine Similarity**  
+   https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.cosine_similarity.html
